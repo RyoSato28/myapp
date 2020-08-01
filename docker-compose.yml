@@ -1,6 +1,6 @@
 version: "3"
 services:
-  db:
+  db: 
     image: postgres
     volumes:
       - psgl_data:/var/lib/postgresql/data
